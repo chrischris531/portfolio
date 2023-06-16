@@ -1,12 +1,5 @@
 import { Container, Button } from "react-bootstrap";
-import {
-  FaAt,
-  FaEnvelope,
-  FaGithub,
-  FaLinkedin,
-  FaPhone,
-  FaSun,
-} from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HomeHeaderContact = () => {
   return (

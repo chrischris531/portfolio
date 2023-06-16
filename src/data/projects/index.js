@@ -174,10 +174,12 @@ const work = [
   },
 ];
 
-export default {
+let exported = {
   university_projects,
   personal_projects,
   grades,
   achievements,
   work,
 };
+
+export default exported;

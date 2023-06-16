@@ -16,7 +16,11 @@ const HomeHeaderLeft = () => {
           P.S - I coded this website from scratch!
           <br />
           See the code in{" "}
-          <a href="https://github.com/chrischris531/portfolio" target="_blank">
+          <a
+            href="https://github.com/chrischris531/portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
             this repo
           </a>
           !

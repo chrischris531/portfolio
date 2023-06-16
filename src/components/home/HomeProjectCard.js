@@ -12,8 +12,16 @@ const HomeProjectCard = ({ project, hover, setHover, count }) => {
       style={{ opacity: (hover === count) | (hover === 0) ? 1 : 0.8 }}
     >
       <ItemModal show={show} setShow={setShow} data={project} />
-      <a
-        style={{ cursor: "pointer" }}
+      <button
+        style={{
+          background: "none",
+          color: "inherit",
+          border: "none",
+          padding: 0,
+          font: "inherit",
+          cursor: "pointer",
+          outline: "inherit",
+        }}
         onMouseEnter={() => setHover(count)}
         onMouseLeave={() => setHover(0)}
         onClick={() => setShow(true)}
@@ -35,7 +43,7 @@ const HomeProjectCard = ({ project, hover, setHover, count }) => {
           {project.company ? <Card.Text>{project.company}</Card.Text> : null}
           <Card.Text className="small">{project.date}</Card.Text>
         </Card.Body>
-      </a>
+      </button>
     </Card>
   );
 };

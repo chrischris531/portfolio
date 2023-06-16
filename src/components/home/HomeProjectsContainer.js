@@ -18,7 +18,7 @@ const HomeProjectsContainer = () => {
           data={projects.university_projects}
           hover={hover}
           setHover={setHover}
-          style="grid"
+          view_style="grid"
         />
       </Tab>
       <Tab eventKey="personal" title="Personal Projects">
@@ -26,7 +26,7 @@ const HomeProjectsContainer = () => {
           data={projects.personal_projects}
           hover={hover}
           setHover={setHover}
-          style="grid"
+          view_style="grid"
         />
       </Tab>
       <Tab eventKey="grades" title="Grades">
@@ -34,7 +34,7 @@ const HomeProjectsContainer = () => {
           data={projects.grades}
           hover={hover}
           setHover={setHover}
-          style="list"
+          view_style="list"
         />
       </Tab>
       <Tab eventKey="achievements" title="Achievements">
@@ -42,7 +42,7 @@ const HomeProjectsContainer = () => {
           data={projects.achievements}
           hover={hover}
           setHover={setHover}
-          style="list"
+          view_style="list"
         />
       </Tab>
       <Tab eventKey="work" title="Work Experience">
@@ -50,7 +50,7 @@ const HomeProjectsContainer = () => {
           data={projects.work}
           hover={hover}
           setHover={setHover}
-          style="grid"
+          view_style="grid"
         />
       </Tab>
     </Tabs>

@@ -1,4 +1,4 @@
-import { Container, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import HomeHeaderLeft from "./HomeHeaderLeft";
 import HomeHeaderRight from "./HomeHeaderRight";
 
