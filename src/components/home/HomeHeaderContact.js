@@ -1,34 +1,25 @@
-import { Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import HeaderLink from "../../buttons/HeaderLink";
 
 const HomeHeaderContact = () => {
   return (
     <Container className="col">
-      <Button
-        className="my-2 row w-100"
-        variant="light"
+      <HeaderLink
         href="mailto: chrismyers611@outlook.com"
-      >
-        <FaEnvelope className="mx-2" />
-        chrismyers611@outlook.com
-      </Button>
-      <Button
+        icon={<FaEnvelope className="mx-2" />}
+        text="chrismyers611@outlook.com"
+      />
+      <HeaderLink
         href="https://github.com/chrischris531?tab=repositories"
-        className="my-2 row w-100"
-        variant="light"
-      >
-        <FaGithub className="mx-2" />
-        GitHub
-      </Button>
-      <Button
+        icon={<FaGithub className="mx-2" />}
+        text="GitHub"
+      />
+      <HeaderLink
         href="https://www.linkedin.com/in/christopher-myers-467938193/"
-        className="my-2 row w-100"
-        variant="light"
-        target="_blank"
-      >
-        <FaLinkedin className="mx-2" />
-        LinkedIn
-      </Button>
+        icon={<FaLinkedin className="mx-2" />}
+        text="LinkedIn"
+      />
     </Container>
   );
 };

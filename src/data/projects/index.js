@@ -35,7 +35,6 @@ const university_projects = [
     name: "Digital Systems Design Coursework",
     description:
       "Optimisd an FPGA in software and hardware to perform a specific arithmetic function as fast as possible. Integrated DMA for faster memory access.",
-    images: [],
     date: "Jan - Mar 2023",
     grade: "A**s and A*s",
   },
@@ -43,7 +42,6 @@ const university_projects = [
     name: "Verilog MIPS CPU",
     description:
       "A MIPS CPU written in Verilog for the Imperial College EIE Second Year Instruction Architectures and Compilers coursework.",
-    images: [],
     date: "Nov - Dec 2021",
     grade: "91%",
   },
@@ -51,7 +49,6 @@ const university_projects = [
     name: "CPU Design",
     description:
       "A CPU designed and simulated in Imperial College's ISSIE software for the First Year Summer Project.",
-    images: [],
     date: "May - Jun 2021",
     grade: "92.45%",
   },
@@ -157,20 +154,79 @@ const achievements = [
 
 const work = [
   {
-    name: "Quantitative Intern",
-    company: "PrismFP Analytics",
+    role: "Quantitative Intern",
+    name: "PrismFP",
     description:
       "I am currently a Quantitative Intern at PrismFP Analytics, where I have been responsible for building features of a FinTech SaaS product.",
-    images: [],
     date: "Apr - Sep 2023",
   },
   {
-    name: "Co-Founder & CTO",
-    company: "Makrverse Ltd",
+    role: "Co-Founder & CTO",
+    name: "Makrverse Ltd",
     description:
       "I co-founded Makrverse in my first year of university, and was responsible for building the mobile app and website as well as the backend, and later managed the development team of four developers. I played an integral role in the raising of $125,000 pre-seed funding.",
-    images: [],
     date: "May 2021 - Aug 2022",
+  },
+  {
+    role: "Intern",
+    name: "EnSilica",
+    description: "",
+    date: "Summer 2019",
+  },
+  {
+    role: "Intern",
+    name: "Leonardo",
+    description: "",
+    date: "Summer 2019",
+  },
+  {
+    role: "Intern",
+    name: "Atkins",
+    description: "",
+    date: "Summer 2019",
+  },
+];
+
+const extracurriculars = [
+  {
+    name: "Piano LTCL Diploma",
+    date: "2017",
+  },
+  {
+    name: "Violin & Viola Grade 7",
+    date: "2015",
+  },
+  {
+    name: "Orchestra Viola Section Lead",
+    date: "2019/20",
+  },
+  {
+    name: "ICL Lawn Tennis Society: LUSL team",
+    date: "2022 - Present",
+  },
+  {
+    name: "ICL Israel Tech Society: Tech Program Officer",
+    date: "2022/23",
+  },
+  {
+    name: "ICL Robotics Society: Chief Lab Manager",
+    date: "2021/22",
+  },
+  {
+    name: "Winchester College School Prefect",
+    date: "2019/20",
+  },
+  {
+    name: "Teach Primary School Debating Volunteering",
+    date: "2019/20",
+  },
+  {
+    name: "Teach Primary School Physics Volunteering",
+    date: "2018/19",
+  },
+  {
+    name: "Singing with Dementia Volunteering",
+    date: "2017/18",
   },
 ];
 
@@ -180,6 +236,7 @@ let exported = {
   grades,
   achievements,
   work,
+  extracurriculars,
 };
 
 export default exported;

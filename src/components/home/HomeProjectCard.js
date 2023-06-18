@@ -40,7 +40,7 @@ const HomeProjectCard = ({ project, hover, setHover, count }) => {
           <Card.Title>{project.name}</Card.Title>
           {/* <Card.Text>{project.description}</Card.Text> */}
           {project.grade ? <Card.Text>Grade: {project.grade}</Card.Text> : null}
-          {project.company ? <Card.Text>{project.company}</Card.Text> : null}
+          {project.role ? <Card.Text>{project.role}</Card.Text> : null}
           <Card.Text className="small">{project.date}</Card.Text>
         </Card.Body>
       </button>

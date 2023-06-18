@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import HomeHeaderContact from "./HomeHeaderContact";
-import CVButton from "../../buttons/CVButton";
+// import CVButton from "../../buttons/CVButton";
 
 const HomeHeaderLeft = () => {
   return (
@@ -8,12 +8,15 @@ const HomeHeaderLeft = () => {
       <h1>Chris Myers</h1>
       <Container className="col-8">
         <p>
-          Third Year Electronic and Information Engineering at Imperial College
-          London
+          Penultimate-year Electronic and Information Engineering at Imperial
+          College London.
         </p>
-        <p>Six-month Quantitative Intern at PrismFP Analytics</p>
         <p>
-          P.S - I coded this website from scratch!
+          Currently interning for six months as a Quantitative Intern at PrismFP
+          Analytics.
+        </p>
+        <p>
+          I wrote all the code for this website from scratch:
           <br />
           See the code in{" "}
           <a
@@ -26,7 +29,7 @@ const HomeHeaderLeft = () => {
           !
         </p>
         <HomeHeaderContact />
-        <CVButton />
+        {/* <CVButton /> */}
       </Container>
     </Container>
   );

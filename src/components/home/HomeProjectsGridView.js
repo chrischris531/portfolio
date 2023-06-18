@@ -8,6 +8,10 @@ const HomeProjectsGridView = ({ data, hover, setHover }) => {
     <Container>
       <Container className="row d-flex justify-content-center">
         {data.map((project) => {
+          if (!("images" in project)) {
+            project.images = [];
+          }
+
           if (project.images.length > 0) {
             count++;
             return (

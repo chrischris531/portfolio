@@ -53,6 +53,14 @@ const HomeProjectsContainer = () => {
           view_style="grid"
         />
       </Tab>
+      <Tab eventKey="extracurricular" title="Extracurriculars">
+        <HomeProjectsTab
+          data={projects.extracurriculars}
+          hover={hover}
+          setHover={setHover}
+          view_style="grid"
+        />
+      </Tab>
     </Tabs>
   );
 };
